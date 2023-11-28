@@ -1,0 +1,280 @@
+@media (max-width: 1500px){
+    .w1500{
+        width: 100%;
+    }
+    .nav_logo{
+        padding-left: 40px;
+    }
+    .nav_join{
+        display: none;
+    }
+    .nav_sub_menu>div{
+        padding-right: 30px;
+        justify-content: flex-end;
+    }
+    .reservation_img{
+        width: 60%;
+    }
+    .course_img{
+        width: 60%;
+    }
+    .course_2_img{
+        width: 60%;
+    }
+    .club_notice{
+        padding: 0 15px;
+    }
+    .footer_right{
+        display: none;
+    }
+    .map{
+        padding: 0 10px;
+    }
+    .footer_wrap{
+        padding: 0 20px;
+    }
+}
+@media (max-width: 1024px){
+    header{
+        position: absolute;
+    }
+    .nav_logo{
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+    .nav_menu{
+        display: none;
+    }
+    .ham_btn{
+        display: block;
+    }
+    .month_event{
+        display: block;
+    }
+    .event_text{
+        height: 0;
+        margin-bottom: 200px;
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+    }
+    .event_text h1>br{
+        display: none;
+    }
+    .event_text>div:last-child{
+        display: none;
+    }
+    .event_bar{
+        height: 450px;
+    }
+    .club_notice{
+        padding: 0 15px;
+    }
+    .club_reservation{
+        display: block;
+        position: relative;
+        left: -1700px;
+    }
+    .club_reservation_left{
+        left: 0;
+        opacity: 1;
+    }
+    .reservation_img{
+        width: 100%;
+    }
+    .reservation_text{
+        margin: 0;
+    }
+    .reservation_text>div>p{
+        display: none;
+    }
+    .reservation_text>div>h1{
+        margin-top: 30px;
+    }
+    .club_course{
+        justify-content: flex-end;
+        flex-direction: column-reverse;
+    }
+    .course_text{
+        text-align: end;
+        justify-content: end;
+    }
+    .course_text>div>p{
+        display: none;
+    }
+    .course_text>div>h1{
+        margin-top: 30px;
+    }
+    .course_text>div>h1>br{
+        display: none;
+    }
+    .course_img{
+        width: 100%;
+    }
+    .club_course_2{
+        display: block;
+        position: relative;
+        left: -1700px;
+    }
+    .club_course_2_left{
+        left: 0;
+        opacity: 1;
+    }
+    .course_2_img{
+        width: 100%;
+    }
+    .course_2_text{
+        margin: 0;
+    }
+    .course_2_text>div>p{
+        display: none;
+    }
+    .course_2_text>div>h1{
+        margin-top: 30px;
+    }
+    .club_guide_wrap{
+        height: 230px;
+    }
+    .club_guide_wrap>div{
+        padding: 0px;
+        text-align: center;
+    }
+    .club_calendar{
+        display: none;
+    }
+    .map_wrap{
+        display: block;
+    }
+    .map_wrap>div{
+        width: 100%;
+    }
+    .map_wrap>div:first-child{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .calendar_wrap{
+        display: none;
+    }
+}
+@media (max-width: 768px){
+    .swiper {
+        height: 500px;
+      }
+    .event_slide{
+        height: 90%;
+    }
+    .event_slide>h1{
+        font-size: 16px;
+    }
+    .event_slide>p{
+        font-size: 12px;
+        margin: 5px 10px;
+        margin-left: 30px;
+    }
+    .club_guide_wrap{
+        height: 180px;
+    }
+    .club_guide_wrap>div{
+        text-align: center;
+        height: 180px;
+        padding: 0px;
+    }
+    .club_guide_wrap>div>a{
+        font-size: 16px;
+        line-height: 320px;
+    }
+    .map_wrap>div:first-child{
+        display: block;
+        width: 100%;
+    }
+    .map_guide{
+        width: 100%;
+        border: none;
+        display: flex;
+        justify-content: space-between;
+    }
+    .map_guide>div:last-child>a{
+        margin: 0;
+    }
+    .map_notice{
+        border-top: 1px solid #072A40;
+        margin-top: 30px;
+        width: 100%;
+        padding: 30px 0 0 0;
+    }
+}
+@media (max-width: 480px){
+    .slide_h{
+        font-size: 32px;
+    }
+    .slide_p{
+        font-size: 16px;
+    }
+    .event_slide{
+        height: 70%;
+    }
+    .event_slide>h1{
+        font-size: 5px;
+        margin: 0 30px;
+    }
+    .event_slide>p{
+        font-size: 16px;
+        margin: 0 10px;
+        margin-left: 30px;
+    }
+    .event_text h1{
+        font-size: 28px;
+    }
+    .event_text p{
+        font-size: 13px;
+    }
+    .club_title>h1{
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .club_title>p{
+        font-size: 13px;
+    }
+    .event_slide>h1{
+        font-size: 16px;
+    }
+    .event_slide>p{
+        font-size: 12px;
+    }
+    .reservation_text{
+    text-align: center;
+    }
+    .reservation_text>div>h1{
+        font-size: 28px;
+    }
+    .reservation_img{
+        height: 300px;
+    }
+    .course_text>div>h1{
+        font-size: 28px;
+    }
+    .course_text{
+        text-align: center;
+    }
+    .course_img{
+        height: 300px;
+    }
+
+    .course_2_text{
+        text-align: center;
+    }
+    .course_2_text>div>h1{
+        font-size: 28px;
+    }
+    .course_2_img{
+        height: 300px;
+    }
+
+
+    .club_guide_wrap{
+        height: 180px;
+    }
+    .club_guide_wrap>div>a{
+        font-size: 12px;
+    }
+}

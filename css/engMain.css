@@ -1,0 +1,402 @@
+/*슬라이드 swiper css*/
+.swiper {
+    margin-top: 100px;
+    width: 100%;
+    height: 800px;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    align-items: center;
+  }
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+/*슬라이드 swiper css*/
+
+/*슬라이드 내용 시작*/
+.slide_text{
+    position: absolute;
+    z-index: 9999;
+    top: 50%;
+    left: 11%;
+    transform: translateY(-50%);
+}
+.slide_h{
+    font-size: 48px;
+    color: #fff;
+    text-shadow: 0px 0px 2px black;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+.slide_p{
+    font-size: 17px;
+    color: #fff;
+    text-shadow: 2px 2px 2px black ;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+.slide_btn>a{
+    background-color: #18B7BE;
+    color: #fff;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+.slide_btn>a:hover{
+    background-color: #08151d;
+}
+/*슬라이드 내용 끝*/
+
+/*월별, 소식 안내*/
+.month_event{
+    margin-top: 300px;
+    display: flex;
+    /* width: 1500px; */
+    margin: 0 auto;
+    transition: all 1s;
+    opacity: 0;
+}
+.month_event_scroll{
+    margin-top: 130px;
+    opacity: 1;
+}
+.event_text{
+    width: 44%;
+    height: 550px;
+    margin-left: 11%;
+
+}
+.event_text h1{
+    font-size: 36px;
+    color: #072A40;
+    margin-bottom: 40px;
+}
+.event_text p{
+    color: #000;
+    font-size: 17px;
+    margin-bottom: 60px;
+}
+.event_text>div:last-child>div{
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.event_text span{
+    font-size: 17px;
+    margin-left: 40px;
+}
+.event_wrap{
+    width: 100%;
+    overflow: hidden;
+}
+.event_bar{
+    display: flex;
+    height: 550px;
+    padding: 10px;
+}
+.event_slide{
+    text-align: start;
+    width: 40%;
+    height: 100%;
+    border-radius: 30px;
+    margin-right: 20px;
+    box-shadow: 2px 2px 10px;
+}
+.event_slide>img{
+    width: 100%;
+    height: 80%;
+    border-radius: 30px 30px 0 0;
+}
+.event_img1{
+    background: url(../img/KakaoTalk_20230613_102510126.png) center;
+    background-size: cover;
+}
+.event_img2{
+    background: url(../img/KakaoTalk_20230809_093247271.png) center;
+    background-size: cover;
+}
+.event_img3{
+    background: url(../img/20220302.png) center;
+    background-size: cover;
+}
+.event_img4{
+    background: url(../img/20230424.png) center;
+    background-size: cover;
+}
+.event_slide>h1{
+    font-size: 20px;
+    font-weight: bold;
+    color: #072A40;
+    margin: 10px;
+    margin-left: 30px;
+}
+.event_slide>p{
+    font-size: 16px;
+    margin: 10px;
+    margin-left: 30px;
+}
+.swiper-pagination-bullet{
+    display: block;
+    padding-bottom: 40px;
+    width: 100px;
+    height: 30px;
+    background-color: #fff;
+    color: black;
+}
+/* .swiper-pagination-bullet-active{
+    background-color: #000;
+} */
+/*월별, 소식 안내*/
+
+/*클럽 안내 시작*/
+.club_notice{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    overflow: hidden;
+}
+.club_title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.club_title>h1{
+    font-size: 48px;
+    font-weight: bold;
+    color: #072A40;
+    margin-bottom: 20px;
+}
+.club_title>p{
+    font-size: 17px;
+}
+.club_reservation{
+    display: flex;
+    margin-left: -1700px;
+    transition: all 1s;
+    opacity: 0;
+}
+.club_reservation_left{
+    margin-left: 0;
+    opacity: 1;
+}
+.reservation_img{
+    width: 900px;
+    height: 500px;
+    background: url(../img/golf-course-1146819_1280.jpg);
+    background-size: cover;
+    border-radius: 30px;
+}
+.reservation_text{
+    margin-left: 40px;
+}
+.reservation_text>div>p{
+    font-size: 28px;
+    color: #072a40;
+    margin-top: 135px;
+    margin-bottom: 60px;
+}
+.reservation_text>div>h1{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.reservation_text>div:last-child{
+    font-size: 20px;
+    display: inline-block;
+    background-color: #18B7BE;
+    border-radius: 30px;
+}
+.reservation_text>div:last-child:hover{
+    background-color: #072A40;
+}
+.reservation_text>div:last-child>a{
+    display: inline-block;
+    padding: 10px 60px;
+    color: #fff;
+}
+.club_course{
+    position: relative;
+    right: -1700px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    transition: all 1s;
+    opacity: 0;
+}
+.club_course_right{
+    right: 0;
+    opacity: 1;
+}
+.club_course_right{
+    margin-left: 0;
+    opacity: 1;
+}
+.course_text>div>p{
+    font-size: 28px;
+    color: #072a40;
+    margin-top: 135px;
+    margin-bottom: 60px;
+}
+.course_text>div>h1{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.course_text>div:last-child{
+    font-size: 20px;
+    display: inline-block;
+    background-color: #18B7BE;
+    border-radius: 30px;
+}
+.course_text>div:last-child:hover{
+    background-color: #072A40;
+}
+.course_text>div:last-child>a{
+    display: inline-block;
+    padding: 10px 60px;
+    color: #fff;
+}
+.course_img{
+    width: 900px;
+    height: 500px;
+    background: url(../img/golf-2206516_1280.jpg);
+    background-size: cover;
+    border-radius: 30px;
+}
+/*클럽 안내 끝*/
+
+/*클럽 가이드 시작*/
+.club_guide{
+    overflow: hidden;
+    margin-bottom: 150px;
+}
+.club_guide_wrap{
+    height: 330px;
+}
+.club_guide_wrap>div{
+    border-radius: 30px;
+    text-align: end;
+    height: auto;
+    padding: 50px;
+}
+.club_guide_wrap>div:hover{
+    opacity: 0.9;
+}
+.club_guide_wrap>div>a{
+    font-size: 24px;
+    line-height: 430px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+}
+.guide_bar1{
+    background: url(../img/golf-2704601_1280.jpg) no-repeat;
+    background-size: cover;
+}
+.guide_bar2{
+    background: url(../img/golf-ball-2079609_1280.jpg) no-repeat;
+    background-size: cover;
+}
+.guide_bar3{
+    background: url(../img/green-2480263_1280.jpg) no-repeat;
+    background-size: cover;
+}
+.guide_bar4{
+    background: url(../img/rain-5275624_1280.jpg) no-repeat;
+    background-size: cover;
+}
+.guide_bar5{
+    background: url(../img/white-2600222_1280.jpg) no-repeat;
+    background-size: cover;
+}
+.guide_bar6{
+    background: url(../img/golf-3683335_1280.jpg) no-repeat;
+    background-size: cover;
+}
+.guide_bar7{
+    background: url(../img/autumn-3736961_1280.jpg) no-repeat;
+    background-size: cover;
+}
+/*클럽 가이드 끝*/
+
+/*지도 시작*/
+.map{
+    background-color: #18B7BE;
+}
+.map_wrap{
+    display: flex;
+    padding: 50px 0;
+}
+.map_wrap>div:first-child{
+    display: flex;
+    width: 70%;
+}
+.map_guide{
+    width: 50%;
+    border-right: 1px solid #072A40;
+    display: flex;
+    justify-content: space-between;
+}
+.map_guide>div{
+    font-size: 16px;
+    color: #fff;
+}
+.map_guide h1{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.map_guide>div:last-child>a{
+    display: block;
+    margin-right: 30px;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    margin-right: 30px;
+}
+.map_notice{
+    width: 50%;
+    padding: 0 40px;
+}
+.map_notice>h1{
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+.map_notice>p{
+    font-size: 16px;
+    color: #fff;
+}
+.map_btn_wrap{
+    width: 30%;
+    background-color: #072A40;
+    border-radius: 30px;
+    padding: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.map_btn_wrap p:first-child{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.map_btn_wrap p{
+    font-size: 16px;
+}
+.map_btn_wrap h1{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.map_btn>a{
+    margin-top: 40px;
+    display: block;
+    padding: 10px 30px ;
+    background-color: #18B7BE;
+    color: #fff;
+    border-radius: 30px;
+}
+.map_btn>a:hover{
+    opacity: 0.5;
+}
+/*지도 끝*/
